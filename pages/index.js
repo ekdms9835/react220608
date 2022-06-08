@@ -13,17 +13,19 @@ export default function Home() {
   return (
   
     <div>
+      <div className={styles.topzone}>
       <Top />
       <Gnb />
+      </div>
       
+      <div>
       <div className={styles.maincomtainer} 
         >
-          sdfsdf
-        <Project_imformation />
 
+        <Project_imformation /> 
 
         </div>
-
+        </div>
     </div>
   )
 }
